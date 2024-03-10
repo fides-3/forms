@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Forms in html</title>
+    </head>
+    <body>
+        <h2>Student Registration Form</h2>
+        <form action="submit_registration.php" method="post" enctype="application/x-www-form-urlencoded">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name">
+            <br>
+
+
+            <label for="date of birth">Date of birth:</label>
+            <input type="text" id="Date of birth" name="date of birth" placeholder="Enter your DOB">
+            <br>
+
+
+            <label for="gender">Gender:</label>
+            <select id="gender" name="gender" >
+                <option value="">Select</option>
+                <option value="male">Male</option>
+                <option value="Female">Female</option>
+                </select>
+            <br>
+
+
+            <label for="address">Address:</label>
+            <input type="text" id="address" name="address" placeholder="Enter your address" >
+            <br>
+
+
+            <label for="telephone">Telephone:</label>
+            <input type="tel" id="telephone" name="telephone" placeholder="Enter your telephone " >
+            <br>
+
+
+            <label for="email address">Email:</label>
+            <input type="text" id="email address" name="email address" placeholder="Enter your email address">
+            <br>
+
+
+            <label for="course">Course:</label>
+            <input type="text" id="course" name="course" placeholder="Enter your course">
+            <br>
+
+
+            <button type="submit">Register</button>  
+            <button type="button">Cancel</button>   
+        
+        </form>
+    </body>
+</html>
